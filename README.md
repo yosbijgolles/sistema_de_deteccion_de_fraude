@@ -28,9 +28,9 @@ pipenv shell
 ## Uso
 
 ### 1. Entrenar modelo: 
-        Después de un analisis EDA exhaustivo se seleccionaron un grupo de features 
-        con mayor poder predictivo para el el clasificador. Bajo estas caracteristicas 
-        se optimizo un modelo XGBoost para su posterior entrenamiento.
+Después de un analisis EDA exhaustivo se seleccionaron un grupo de features 
+con mayor poder predictivo para el el clasificador. Bajo estas caracteristicas 
+se optimizo un modelo XGBoost para su posterior entrenamiento.
 
 ```bash
 python src/train.py
@@ -69,7 +69,7 @@ resultado = predict(client)
 
 ## Características
 
-    Tras el EDA se selecccionaron las siguientes carácteristicas:
+Tras el EDA se selecccionaron las siguientes carácteristicas:
 
 - **10 categóricas**: over_draft, credit_history, purpose, Average_Credit_Balance, employment, personal_status, property_magnitude, other_payment_plans, housing
 - **5 numéricas**: credit_usage, current_balance, location, cc_age, existing_credits
