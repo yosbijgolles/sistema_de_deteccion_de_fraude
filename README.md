@@ -15,16 +15,8 @@ uv sync
 pip install fastapi numpy pandas scikit-learn scipy uvicorn xgboost
 ```
 
-<<<<<<< HEAD
-## Uso
-
-### 1. Entrenar modelo: 
-Después de un analisis EDA exhaustivo se seleccionaron un grupo de features 
-con mayor poder predictivo para el el clasificador. Bajo estas caracteristicas 
-se optimizo un modelo XGBoost para su posterior entrenamiento.
-=======
 ## Uso Rápido
->>>>>>> 6a2ffb6 (xgboost API REST)
+
 
 ```bash
 # 1. Entrenar modelo
@@ -67,11 +59,8 @@ curl -X POST http://localhost:9696/predict \
 {"bad_probability": 0.091, "fraude": false}
 ```
 
-<<<<<<< HEAD
-Tras el EDA se selecccionaron las siguientes carácteristicas:
-=======
+
 ## Docker
->>>>>>> 6a2ffb6 (xgboost API REST)
 
 ```bash
 docker build -t fraud-detection .
